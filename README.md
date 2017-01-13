@@ -8,7 +8,7 @@ Please download the latest chromedriver from https://chromedriver.storage.google
 
 Please update the path of your chromedriver (driverPath) to the downloaded path in the resources/config.properties file.
 
-Also if yor are Running on windows, Please go to src>Tests>BaseTest and add .exe extension at the end of chromedriver(Line 39). 
+Also if you are running on windows, Please go to src>Tests>BaseTest and add .exe extension at the end of chromedriver(Line 39). 
 
 Right click on the pom.xml file and click on Run As-> Maven Clean and then Maven Install.
 
