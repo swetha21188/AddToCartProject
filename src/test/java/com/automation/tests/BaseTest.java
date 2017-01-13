@@ -13,12 +13,13 @@ public class BaseTest {
 @BeforeClass
 	public void openBrowser() throws InterruptedException {
 	
- 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);   
 	 	String driverPath = "/Users/spatoor/Downloads/";
 	 	System.setProperty("webdriver.chrome.driver" , driverPath+"chromedriver");
 	 	driver = new ChromeDriver();
 	 	driver.get("http://store.23andme.com/en-us/");
 	 	driver.manage().window().maximize();
+ 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);   
+
   }
 
 @AfterClass
