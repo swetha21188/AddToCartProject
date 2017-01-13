@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CartTest" >
+	<test name="Test01" allow-return-values="true">
+	<classes>
+		<class name="com.automation.tests.CartTest" />
+	</classes>
+    </test>
+</suite>
